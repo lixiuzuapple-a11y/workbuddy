@@ -15,7 +15,8 @@
 ## 提交署名
 
 - 显示名：`li-workbuddycn`
-- 邮箱：`lixiuzuapple-a11y@users.noreply.github.com`
+- 邮箱：`lixiuzuapple@gmail.com`（GitHub 账号已验证邮箱）
+- GitHub 账号：[lixiuzuapple-a11y](https://github.com/lixiuzuapple-a11y)
 
 ## 目录规划
 
