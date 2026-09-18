@@ -12,6 +12,12 @@
 
 仓库由 WorkBuddy 协作维护，处于初始阶段。
 
+## 文档
+
+| 文档 | 说明 |
+|---|---|
+| [docs/github-setup.md](docs/github-setup.md) | **给 AI 助手看的交接说明**：如何在这台 Windows 机器上读写 GitHub（含 PATH 修复、常用命令、排错速查、安全边界） |
+
 ## 提交署名
 
 - 显示名：`lixiuzu`
