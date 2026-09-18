@@ -2,6 +2,14 @@
 
 > 目的：任何 AI 助手读完这一页，就能直接在这台机器上读写 GitHub，**不需要重新配置、不需要问用户要令牌**。
 
+## ⚠️ 先看这条：找文件别用 shell
+
+本机 bash 里 **`ls` / `grep` / `cat` / `head` / `dirname` 全部不可用**（`command not found`）。
+`find` 会解析到 `C:\Windows\system32\find.exe`，那是 Windows 的文本查找工具，**不能搜文件**。
+
+→ 找文件、读文件请用内置的 **Glob / Grep / Read** 工具，它们不走 shell。
+→ 如果"搜了半天找不到某个文件"，先怀疑 shell 工具链坏了，别下"文件不存在"的结论。
+
 ## 一句话结论
 
 **通道已经打通。** 账号 `lixiuzuapple-a11y` 的授权令牌已加密存放在 **Windows 凭据管理器**里，
