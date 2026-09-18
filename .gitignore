@@ -1,0 +1,22 @@
+# 系统与编辑器文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 临时文件
+*.tmp
+*.log
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 敏感信息（绝不提交）
+*.key
+*.pem
+.env
+credentials.json
+token*.txt
